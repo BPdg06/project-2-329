@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [add your github repo link](https://github.com/BPdg06/project-2-329)
-- [add your deployment link](https://project2seirreact.netlify.app/)
+- [Github repo link](https://github.com/BPdg06/project-2-329)
+- [Deployment link](https://project2seirreact.netlify.app/)
 
 ## Project Description
 
