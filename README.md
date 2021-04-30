@@ -7,7 +7,7 @@
 
 ## Project Description
 
-My React project is going to be showing the users to filter and search the characters by their names and for each character's information including actor's name, status and etc, will be displaying with the photo.
+My React project is going to be showing the users to filter and search the characters by their names and for each character's information including actor's name, status and etc, will be displaying with the photo. In addition, the users may add their favorite characters to the "My List" and save them.
 
 ## API
 
@@ -1357,45 +1357,62 @@ This API calls the all charaacters from the Breaking Bad.
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [Mobile Wireframe](https://i.imgur.com/O2BnRup.jpg)
+- [Desktop Wireframe](https://i.imgur.com/mGa66eu.jpg)
+- [React Architecture](https://i.imgur.com/K0fNWPe.jpg)
 
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
-#### MVP EXAMPLE
-- Find and use external api 
+#### MVP 
+- Find and use external api to create the characters list on the page and filter by charater names
 - Render data on page 
-- Allow user to interact with the page
+- Allow user to interact with the page by searching and create their favorite characters to "My List"
 
-#### PostMVP EXAMPLE
+#### PostMVP 
 
-- Add localStorage or firebase for storage
+- Add more of CSS styles/effects for the components
+- Create Quotes API calls to filter by character names
+- Create About Page for brieft introduction of the project
+- Make the Footer for the pages
 
 ## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| App | This will make the initial data pull and include React Router and shows the main page | 
+| Nav | This will render the navigation bar with links to each content page | 
+| Search | This will filter through the characters lists by their name | 
+| MyList | This will render the characters lists in the separate page | 
+| CharacterCards | This will render the characters lists including the image | 
+| CharacterContents | This will render the contents of the character in the cards | 
+| About | This will render a brief explanation of the project | 
+| Quotes | This will contain the list of Quotes of characters | 
+| Footer | This will render the footer of the page | 
 
+## Time Frames
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+- [Time Frame Google Sheets] (https://docs.google.com/spreadsheets/d/1AJPbWaMEy0a0MtnWLJxCF-FwKXlZ8JvjODGPjvfZDd0/edit?usp=sharing)
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Project Planning | H | 4hrs| 2hrs | 6hrs |
+| Create React App | H | 1hr| hrs | hrs |
+| Routes Setup | H | 1hr| hrs | hrs |
+| Nav Bar | H | 1.5hrs| hrs | hrs |
+| Search Form | H | 3hrs| hrs | hrs |
+| Character Cards | H | 3.5hrs| hrs | hrs |
+| Character Contents | H | 3hrs| hrs | hrs |
+| My List | H | 2hrs| hrs | hrs |
+| Working with API | H | 5hrs| hrs | hrs |
+| Style of components | H | 4.5hrs| hrs | hrs |
+| About | L | 1hr| hrs | hrs |
+| Quotes | L | 4hrs| hrs | hrs |
+| Footer | L | 1hr| hrs | hrs |
+| Total | H | 34.5hrs| 5hrs | hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ I am going to use the Axios to make http request to get the external API.
 
 ## Code Snippet
 
