@@ -1358,7 +1358,7 @@ This API calls the all charaacters from the Breaking Bad.
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [Mobile Wireframe](https://i.imgur.com/O2BnRup.jpg)
-- [Desktop Wireframe](https://i.imgur.com/mGa66eu.jpg)
+- [Desktop Wireframe](https://i.imgur.com/9OWOSba.jpg)
 - [React Architecture](https://i.imgur.com/K0fNWPe.jpg)
 
 
@@ -1392,7 +1392,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Time Frames
 
-- [Time Frame Google Sheets] (https://docs.google.com/spreadsheets/d/1AJPbWaMEy0a0MtnWLJxCF-FwKXlZ8JvjODGPjvfZDd0/edit?usp=sharing)
+- [Time Frame Google Sheets](https://docs.google.com/spreadsheets/d/1AJPbWaMEy0a0MtnWLJxCF-FwKXlZ8JvjODGPjvfZDd0/edit?usp=sharing)
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -1409,7 +1409,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | About | L | 1hr| hrs | hrs |
 | Quotes | L | 4hrs| hrs | hrs |
 | Footer | L | 1hr| hrs | hrs |
-| Total | H | 34.5hrs| 5hrs | hrs |
+| Total | H | 34.5hrs| hrs | hrs |
 
 ## Additional Libraries
  I am going to use the Axios to make http request to get the external API.
