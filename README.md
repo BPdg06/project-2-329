@@ -1373,7 +1373,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - Add more of CSS styles/effects for the components
 - Create Quotes API calls to filter by character names
-- Create About Page for brieft introduction of the project
+- Create About Page for brief introduction of the project
 - Make the Footer for the pages
 
 ## Components
