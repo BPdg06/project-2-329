@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+import React from 'react';
+import {Route, Switch} from 'react-router-dom';
+import {useState, useEffect} from 'react';
+import Nav from './components/Nav';
+import Home from './pages/Home';
+import MyList from './pages/MyList';
 import './App.css';
 
-function App() {
+const App = (props) => {
+
+
+  const [mylist, setMylist] = useState([]);
+  //useState hook for the characters
+  const [characterlist, setCharacterlist] = useState([]);
+
+  const getCharacterlist = async () => {
+    const response = await fetch("https://www.breakingbadapi.com/api/characters")
+    const data = await response.json()
+    setCharacterlist(data)
+  }
+
+  const addToTeam = (character) => {
+    setMylist([...mylist, character])
+  } 
+
+
+  useEffect(() => {getCharacterlist()}, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <main>
+        <Switch>
+          <Route exact path="/">
+            <Home characterlist={characterlist} addToTeam={addToTeam}/> 
+          </Route>
+          <Route path="/mylist">
+            <MyList/>
+          </Route>
+        </Switch>
+      </main>
+      
     </div>
   );
 }
 
+
 export default App;
+
