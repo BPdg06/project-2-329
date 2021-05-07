@@ -1359,7 +1359,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 - [Mobile Wireframe](https://i.imgur.com/O2BnRup.jpg)
 - [Desktop Wireframe](https://i.imgur.com/9OWOSba.jpg)
-- [React Architecture](https://i.imgur.com/K0fNWPe.jpg)
+- [React Architecture](https://i.imgur.com/t3Ya5Ki.jpg)
 
 
 ### MVP/PostMVP - 5min
@@ -1397,22 +1397,22 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Planning | H | 4hrs| 2hrs | 6hrs |
-| Create React App | H | 1hr| 2hrs | 3hrs |
-| Routes Setup | H | 1hr| 2hrs | 3hrs |
-| Nav Bar | H | 1.5hrs| 1.5hrs | 1.5hrs |
-| Search Form | H | 3hrs| 3hrs | 3hrs |
-| Character Cards | H | 3.5hrs| 3hrs | 5hrs |
+| Create React App | H | 1hr| 1hrs | 4hrs |
+| Routes Setup | H | 1hr| 1hrs | 4hrs |
+| Nav Bar | H | 1.5hrs| 0.5hrs | 1.5hrs |
+| Search Form | H | 3hrs| 2hrs | 4hrs |
+| Character Cards | H | 3.5hrs| 2hrs | 5hrs |
 | Character Contents | H | 3hrs| 2hrs | 4hrs |
-| My List | H | 2hrs| 2hrs | 3.5hrs |
-| Working with API | H | 5hrs| 3hrs | 8hrs |
-| Style of components | H | 4.5hrs| hrs | hrs |
-| About | L | 1hr| hrs | hrs |
-| Quotes | L | 4hrs| hrs | hrs |
-| Footer | L | 1hr| hrs | hrs |
-| Total | H | 34.5hrs| hrs | hrs |
+| My List | H | 2hrs| 1hrs | 3.5hrs |
+| Working with API | H | 5hrs| 3hrs | 6hrs |
+| Style of components | H | 4.5hrs| 2hrs | 5hrs |
+| About | L | 1hr| 0hrs | 0hrs |
+| Quotes | L | 4hrs| 0hrs | 0hrs |
+| Footer | L | 1hr| 0.5hrs | 1hrs |
+| Total | H | 34.5hrs| 17hrs | 44hrs |
 
 ## Additional Libraries
- I am going to use the Axios to make http request to get the external API.
+
 
 ## Code Snippet
 
