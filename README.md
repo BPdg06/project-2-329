@@ -1397,14 +1397,14 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Planning | H | 4hrs| 2hrs | 6hrs |
-| Create React App | H | 1hr| hrs | hrs |
-| Routes Setup | H | 1hr| hrs | hrs |
-| Nav Bar | H | 1.5hrs| hrs | hrs |
-| Search Form | H | 3hrs| hrs | hrs |
-| Character Cards | H | 3.5hrs| hrs | hrs |
-| Character Contents | H | 3hrs| hrs | hrs |
-| My List | H | 2hrs| hrs | hrs |
-| Working with API | H | 5hrs| hrs | hrs |
+| Create React App | H | 1hr| 2hrs | 3hrs |
+| Routes Setup | H | 1hr| 2hrs | 3hrs |
+| Nav Bar | H | 1.5hrs| 1.5hrs | 1.5hrs |
+| Search Form | H | 3hrs| 3hrs | 3hrs |
+| Character Cards | H | 3.5hrs| 3hrs | 5hrs |
+| Character Contents | H | 3hrs| 2hrs | 4hrs |
+| My List | H | 2hrs| 2hrs | 3.5hrs |
+| Working with API | H | 5hrs| 3hrs | 8hrs |
 | Style of components | H | 4.5hrs| hrs | hrs |
 | About | L | 1hr| hrs | hrs |
 | Quotes | L | 4hrs| hrs | hrs |

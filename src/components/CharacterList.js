@@ -2,14 +2,17 @@ import React from 'react';
 import Character from './Character';
 
 
-const CharacterList = ({characterlist, index}) => {
+const CharacterList = ({characterlist, index, handleClick, label}) => {
     return (
-        <div>
+        <div className="characterCards">
+            
             {characterlist.map((character, index) => {
-                return ( 
-                <div className="characterCards">
-                    <h1>{character.name}</h1>
-                    <Character key={character.char_id} character={character}></Character>
+                return (
+                <div key={character.char_id}>
+                    {/* <h1>{character.name}</h1> */}
+                    <Character character={character} handleClick={handleClick} label={label}></Character>
+                    
+
                     {/* <img src={character.img}></img> */}
                 </div>
             )})}

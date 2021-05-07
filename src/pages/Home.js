@@ -7,7 +7,7 @@ const Home = (props) => {
 
     return (
         <div>
-            <CharacterList characterlist={props.characterlist} handleClick={props.addToTeam} label="Add To Team"/>
+            <CharacterList characterlist={props.characterlist} handleClick={props.addToList} label="Add To My List"/>
         </div>
     );
 };

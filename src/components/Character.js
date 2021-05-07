@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Character = ({character}) => {
+const Character = ({character, handleClick, label}) => {
     // console.log(character)
     
     // const loaded = () => {
@@ -16,12 +16,12 @@ const Character = ({character}) => {
                 <div className='cardInfo'>
                     <h1>{character.name}</h1>
                     <ul>
-                        <li>Actor Name: {character.portrayed}</li>
-                        <li>Nickname: {character.nickname}</li>
-                        <li>Birthday: {character.birthday}</li>
-                        <li>Occupation: {character.occupation}</li>
-                        <li>Status: {character.status}</li>
-                        <button onClick={() => character.handleClick()}></button>
+                        <li><strong>Actor Name: </strong>{character.portrayed}</li>
+                        <li><strong>Nickname: </strong>{character.nickname}</li>
+                        <li><strong>Birthday: </strong> {character.birthday}</li>
+                        <li><strong>Occupation: </strong>{character.occupation}</li>
+                        <li><strong>Status: </strong> {character.status}</li>
+                        <button onClick={() => handleClick(character)}>{label}</button>
                     </ul>
                 </div>
             </div>

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import icon from '../images/icon.png';
 
 const Nav = () => {
     return (
-        <nav>
-            <Link to="/">Home</Link>
-            <Link to="/mylist">My List</Link>
+        <nav className="navbar">
+            <Link to="/"><h2>Home</h2></Link>
+            <img src={icon} alt='icon' />
+            <Link to="/mylist"><h2>My List</h2></Link>
         </nav>
     );
 };
